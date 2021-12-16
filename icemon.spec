@@ -6,7 +6,7 @@
 Summary:	Icecream GUI Monitor
 Name:		icemon
 Version:	3.3
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/System
 #Source0Download: https://github.com/icecc/icemon/releases
@@ -29,7 +29,7 @@ Requires(post,postun):	gtk-update-icon-cache
 Requires:	Qt5Core >= %{qtver}
 Requires:	Qt5Widgets >= %{qtver}
 Requires:	hicolor-icon-theme
-Requires:	icecream >= 1.3
+Requires:	icecream-libs >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
