@@ -6,7 +6,7 @@
 Summary:	Icecream GUI Monitor
 Name:		icemon
 Version:	3.3
-Release:	2
+Release:	4
 License:	GPL v2+
 Group:		Applications/System
 #Source0Download: https://github.com/icecc/icemon/releases
